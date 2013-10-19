@@ -1,4 +1,0 @@
-yii-skeleton
-============
-
-yii-skeleton
