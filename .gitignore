@@ -6,6 +6,7 @@ protected/config/console.php
 protected/config/development.php
 protected/config/production.php
 protected/config/test.php
+protected/config/common.php
 nbproject/*
 !.gitkeep
 shared/*
