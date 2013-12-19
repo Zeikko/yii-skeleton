@@ -2,6 +2,13 @@
 
 return CMap::mergeArray(
                 require(dirname(__FILE__) . '/common.php'), array(
+            'modules' => array(
+                'gii' => array(
+                    'class' => 'system.gii.GiiModule',
+                    'password' => 'giipassword',
+                    'ipFilters' => array('127.0.0.1', '::1'),
+                ),
+            ),
             'components' => array(
                 // Use this to override the db config
                 /*

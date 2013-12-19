@@ -18,11 +18,6 @@ return array(
         'ext.yii-mail.YiiMailMessage',
     ),
     'modules' => array(
-        'gii' => array(
-            'class' => 'system.gii.GiiModule',
-            'password' => 'gii67',
-            'ipFilters' => array('127.0.0.1', '::1'),
-        ),
     ),
     // application components
     'components' => array(
