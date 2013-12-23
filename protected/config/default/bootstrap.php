@@ -4,8 +4,8 @@
  * Use the environemnt variable to determine which configuration is loaded
  */
 
-//$environment = 'development';
-$environment = 'production';
+$environment = 'development';
+//$environment = 'production';
 // change the following paths if necessary
 $yii = '/var/frameworks/yii/yii-1.1.14/framework/';
 
